@@ -1,0 +1,83 @@
+@media (max-width: 1100px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .ios {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .top-buttons{
+        width: 70%;
+        margin: auto;
+    }
+    button {
+        width: 100%;
+    }
+    .mac {
+        margin-left: 0;
+    }
+    .top {
+        text-align: center;
+        display: flex;
+    }
+    .top-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .top img{
+        background-size: cover;
+    }
+    .keep-track{
+        display: flex;
+        flex-direction: column;
+    }
+    .description-1 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .description-1 div img{
+        width: 80%;
+        right: 0;
+        margin: auto;
+    }
+    .description-1-text {
+        margin: 40px 0;
+        text-align: center;
+    }
+    .description-2 div{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .description-2 img{
+        width: 80%;
+    }
+    .description-2 {
+        margin-bottom: 50px;
+    }
+    .description-3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .description-3 div{
+        margin: 30px auto;
+    }
+    .logos div{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .logos img{
+        width: 20%;
+        align-self: center;
+        margin: 40px 0;
+    }
+}
